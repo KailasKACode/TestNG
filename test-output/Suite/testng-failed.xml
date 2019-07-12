@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" allow-return-values="true">
+  <listeners>
+    <listener class-name="ListnerDemo.ListnerDemo2"/>
+  </listeners>
+  <test thread-count="5" name="TestDMOE(failed)">
+    <classes>
+      <class name="testautomationpractice.testautomationpracticeDemo">
+        <methods>
+          <include name="openUrl"/>
+          <include name="toDoble_Click"/>
+          <include name="aftremethodTest"/>
+        </methods>
+      </class> <!-- testautomationpractice.testautomationpracticeDemo -->
+    </classes>
+  </test> <!-- TestDMOE(failed) -->
+</suite> <!-- Failed suite [Suite] -->
