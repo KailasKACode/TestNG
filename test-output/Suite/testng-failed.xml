@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" allow-return-values="true">
-  <listeners>
-    <listener class-name="ListnerDemo.ListnerDemo2"/>
-  </listeners>
-  <test thread-count="5" name="TestDMOE(failed)">
+  <parameter name="pass" value="kai$1234"/>
+  <parameter name="user" value="9767732728"/>
+  <test thread-count="5" name="FlipcartData(failed)">
     <classes>
-      <class name="testautomationpractice.testautomationpracticeDemo">
+      <class name="Flipcart.EndToEnd">
         <methods>
-          <include name="openUrl"/>
-          <include name="toDoble_Click"/>
-          <include name="aftremethodTest"/>
+          <include name="getAllPhonePriceWithAvg"/>
+          <include name="SearchProduct"/>
         </methods>
-      </class> <!-- testautomationpractice.testautomationpracticeDemo -->
+      </class> <!-- Flipcart.EndToEnd -->
     </classes>
-  </test> <!-- TestDMOE(failed) -->
+  </test> <!-- FlipcartData(failed) -->
 </suite> <!-- Failed suite [Suite] -->

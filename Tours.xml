@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite allow-return-values="true" name="Suite">
+	<parameter name="xpath" value="//input[@name='userName']" />
+	<parameter name="key" value="batman" />
+	<test name="ToursLogin">
+		<classes>
+			<class name="PointOfInterview.ToursLogin">
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

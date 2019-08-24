@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite allow-return-values="true" name="Suite">
+	<parameter name="user" value="7020934512" />
+	<parameter name="pass" value="kailas0101" />
+	<test name="ToursLogin">
+		<classes>
+			<class name="AmaZon.AmaZonFirst">
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

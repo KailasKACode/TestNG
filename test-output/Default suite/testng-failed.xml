@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AssertionDemo.SoftAssretDemo">
+      <class name="Flipcart.EndToEnd">
         <methods>
-          <include name="testDemo"/>
+          <include name="purchseProduct"/>
+          <include name="loginByData"/>
+          <include name="byPrduct"/>
         </methods>
-      </class> <!-- AssertionDemo.SoftAssretDemo -->
+      </class> <!-- Flipcart.EndToEnd -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
